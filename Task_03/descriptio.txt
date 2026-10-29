@@ -1,0 +1,16 @@
+Task 3: Authentication and Authorization in a Flask API [1 Mark] 
+Scenario: A company is developing an employee management API. The company wants only 
+authenticated users to access the system and wants to restrict sensitive operations to 
+authorized administrators. 
+Requirements: 
+● Develop a Flask API with endpoints for viewing, adding, updating, and deleting 
+employee records. 
+● Implement authentication so a user must log in with valid credentials before accessing 
+protected endpoints. 
+● Implement authorization using at least two roles: 
+○ Employee: can view employee records. 
+○ Administrator: can view, add, update, and delete employee records. 
+● Protect the endpoints so unauthenticated users cannot access them. 
+● Ensure that authenticated employees cannot perform administrator-only operations. 
+● Test the API using cURL with valid and invalid credentials and demonstrate the 
+difference between authentication and authorization.
