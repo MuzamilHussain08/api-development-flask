@@ -1,0 +1,15 @@
+Task 2: API Key Generation and Sharing [1 Mark] 
+Scenario: RootSoftware develops a text-processing API that other developers need to access. 
+You are required to create an API and provide three API keys to three different consumers for 
+testing. 
+Requirements: 
+● Develop a Flask API with a POST /process endpoint that accepts a text string in JSON 
+format and returns the processed text. For example, it may return the text in uppercase. 
+● Generate three unique API keys for three different API consumers. 
+● Provide a mechanism for each consumer to submit their key through the X-API-Key 
+HTTP request header. 
+● Validate the supplied key before processing the request. 
+● Return the result for a valid key and reject requests containing an invalid or missing key. 
+● Share the three keys securely with the assigned testers, who must test the API using 
+cURL. 
+● Demonstrate that each valid key works and that an invalid key is rejected.
