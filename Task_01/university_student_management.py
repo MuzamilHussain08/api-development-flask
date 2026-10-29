@@ -1,13 +1,9 @@
-
 from flask import Flask, request, jsonify
 import sqlite3
 
 app = Flask(__name__)
 
-
-# Create database and table
 con = sqlite3.connect("students.db")
-
 con.execute("""
 CREATE TABLE IF NOT EXISTS students (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
