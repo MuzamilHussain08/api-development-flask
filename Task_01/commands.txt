@@ -1,0 +1,18 @@
+Task 1: Database-Driven Flask API with Streamlit Interface [1 Mark] 
+Scenario: A university wants to develop a student management application that stores student 
+records in a database and allows users to manage them through a web interface. 
+Requirements (Flask API): 
+● Connect Flask to an SQLite database. 
+● Create a students table containing student ID, name, department, and email. 
+● Implement the following endpoints: 
+○ GET /students — retrieve all students. 
+○ GET /students/<id> — retrieve a specific student. 
+○ POST /students — add a new student. 
+○ PUT /students/<id> — update a student's information. 
+○ DELETE /students/<id> — delete a student. 
+Requirements (Streamlit): 
+● Display all students in a table. 
+● Provide a form to add a new student. 
+● Allow users to select and update an existing student. 
+● Allow users to delete a student. 
+● Refresh the displayed records after each successful operation.
